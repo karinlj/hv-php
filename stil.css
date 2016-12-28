@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+/*****RESET*****/
+
+/*
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*****BASIC*****/
+
+body {
+    background-color: cadetblue;
+	color: black;
+    font-family:  helvetica, verdana, sans-serif;
+}
+
+#wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+  
+}
+
+h1 {
+	font-size: 1.8em;
+	font-weight: bold;
+	padding: 20px 5px;
+	margin-bottom: 10px;
+}
+
+h1 a {
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 1.2em;
+	font-weight: 600;
+	padding: 30px 5px;
+}
+
+h3 {
+	font-size: 1.1em;
+	font-weight: 600;
+	padding: 20px 5px;
+}
+
+p {
+	padding: 5px;
+    margin-right: 60px;
+	font-size: 1.05em;
+    font-weight: lighter;
+}
+
+nav {
+	padding: 3px 5px;
+}
+
+nav ul {
+	padding: 10px 0;
+	margin-top: 20px;
+}
+
+nav li {
+	list-style: none;
+	display: inline;
+	margin-right: 30px;
+}
+
+a {
+	text-decoration: none;
+	margin-left: 0;
+	font-weight: bold;
+	color: mediumspringgreen;
+}
+
+nav li a {
+	text-decoration: none;
+	padding: 7px;
+	margin-left: 0;
+	font-weight: bold;
+	background-color: /*#C6096B;*/  #8B008B;
+	color:  ghostwhite;
+}
+
+nav a:hover {
+	background-color: rebeccapurple;
+}
+
+footer {
+	margin-top: 60px;
+}
+
+table {
+	border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th {
+	font-weight: bold;
+	padding: 4px 30px;
+	background-color: teal;
+}
+
+td {
+	padding: 8px 30px;
+    font-size: 1.05em;
+
+}
+
+#site-title {
+	margin-top: 30px;
+}
+
+#rad1 {
+	position: absolute;
+	top: 10px;
+	left: 800px;
+}
+
+#rad2 {
+	position: absolute;
+	top: 30px;
+	left: 800px;
+} 
+
+#rad3 {
+	position: absolute;
+	top: 50px;
+	left: 801px;
+}
+
+img {
+    padding: 25px;
+}
+
+span {
+    font-weight: 600;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+.login {
+    position: absolute;
+    left: 420px;
+}
+
+#katt {
+    cursor: pointer;
+}
+
+#info1 {
+    display: none;
+}
+
+
+
+
+

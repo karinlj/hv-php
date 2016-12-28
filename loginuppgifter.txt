@@ -1,0 +1,8 @@
+Php-uppgift vt-16:
+
+Karin Ljunggren 720917-3967
+
+Adress: http://webbkurs.ei.hv.se/~kalj0003/php-uppgift/
+
+Login adminsida: karin
+Lösenord adminsida: kurridutt
